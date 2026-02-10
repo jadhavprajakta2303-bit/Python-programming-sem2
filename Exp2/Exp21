@@ -1,0 +1,16 @@
+#calculate electricity board
+"""
+Created on Tue Feb 10 13:06:00 2026
+
+@author:Prajakta
+"""
+units=int(input("Enter electricity units:"))
+if units <=100:
+    bill=0
+elif units <=200:
+    bill=(units-100)*5
+else :
+     bill= 500 + (units-200)*10
+print("Electricity Bill=",bill)
+
+
